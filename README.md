@@ -3,9 +3,9 @@ Building a modern data warehouse with SQL server, including ETL processes, data 
 
 # Data Warehouse and Analytics Project
 
-Welcome to the **Data Warehouse and Analytics Project** repository! 🚀  
+Welcome to the **Data Warehouse and Analytics Project** repository! 
 
-Since this is my Junior year as data science and statistics student, I'm looking to diversiy portfolio in data science skills. I'm currently taking database management systems class which closely related on building skills towards becoming data engineer. So, here is some of my personal project that I did to mastering in this skills/
+Since this is my Junior year as a data science and statistics student, I'm looking to diversify my portfolio in data science skills. I'm currently taking database management systems class which closely related on building skills towards becoming a data engineer. So, here is one of my personal project that I did to master in data warehousing.
 
 This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
 
@@ -13,7 +13,6 @@ This project demonstrates a comprehensive data warehousing and analytics solutio
 ## 🏗️ Data Architecture
 
 The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
-![Data Architecture](docs/data_architecture.png)
 
 1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
 2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
